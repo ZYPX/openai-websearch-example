@@ -11,7 +11,7 @@ var msgHistory []MSG
 
 func main() {
 
-	err := os.Setenv("apiKey", "YOUR OPENAI KEY HERE")
+	err := os.Setenv("apiKey", "YOUR OPENROUTER KEY HERE")
 	if err != nil {
 		return
 	}
